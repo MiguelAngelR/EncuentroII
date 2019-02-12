@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estados">
+
+       <item> Aguascalientes</item>
+       <item> Baja California</item>
+       <item> Baja California Sur</item>
+       <item> Campeche</item>
+       <item> Ciudad de México</item>
+       <item> Chiapas</item>
+       <item> Chihuahua</item>
+       <item> Coahuila</item>
+       <item> Colima</item>
+       <item> Durango</item>
+       <item> México</item>
+       <item> Guanajuato</item>
+       <item> Guerrero</item>
+       <item> Hidalgo</item>
+       <item> Jalisco</item>
+       <item> Michoacán </item>
+       <item> Morelos</item>
+       <item> Nayarit</item>
+       <item> Nuevo León</item>
+       <item> Oaxaca</item>
+       <item> Puebla</item>
+       <item> Querétaro</item>
+       <item> Quintana Roo</item>
+       <item> San Luis Potosí</item>
+       <item> Sinaloa</item>
+       <item> Sonora</item>
+       <item> Tabasco</item>
+       <item> Tamaulipas</item>
+       <item> Tlaxcala</item>
+       <item> Veracruz</item>
+       <item> Yucatán</item>
+       <item> Zacatecas</item>
+
+    </string-array>
+
+    <string-array name="genero">
+
+        <item> Hombre</item>
+        <item> Mujer</item>
+
+    </string-array>
+
+   <string-array name="edad">
+
+      <item>15</item>
+      <item>16</item>
+      <item>17</item>
+      <item>18</item>
+      <item>19</item>
+      <item>20</item>
+      <item>21</item>
+      <item>22</item>
+      <item>23</item>
+      <item>24</item>
+      <item>25</item>
+      <item>26</item>
+      <item>27</item>
+      <item>28</item>
+      <item>29</item>
+      <item>30</item>
+      <item>31</item>
+      <item>32</item>
+      <item>33</item>
+      <item>34</item>
+      <item>35</item>
+      <item>36</item>
+      <item>37</item>
+      <item>38</item>
+      <item>39</item>
+      <item>40</item>
+      <item>41</item>
+      <item>42</item>
+      <item>43</item>
+      <item>44</item>
+      <item>45</item>
+      <item>46</item>
+      <item>47</item>
+      <item>48</item>
+      <item>49</item>
+      <item>50</item>
+      <item>50+</item>
+
+   </string-array>
+   <string-array name="escuelas">
+        <item>Universidad Autónoma Metropolitana campus Azcapotzalco (UAM-A)</item>
+        <item>Instituto Tecnológico de Tlalnepantla (ITTLA)</item>
+        <item>Instituto Tecnológico de Gustavo A. Madero (ITGAM)</item>
+        <item>Universidad Nacional Autónoma de México, Facultad de Ingeniería (UNAM-FI)</item>
+        <item>Facultad de Estudios Superiores Cuautitlán (FES. CUAUTITLÁN)</item>
+        <item>Instituto Politécnico Nacional (IPN)</item>
+        <item>Instituto Tecnológico de Pachuca (ITP)</item>
+        <item>Instituto Tecnológico de Monterrey (ITESM)</item>
+        <item>Otra</item>
+   </string-array>
+
+</resources>

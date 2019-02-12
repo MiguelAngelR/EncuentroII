@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eii.encuentroii.Login"
+    android:layout_gravity="top">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/navheader"
+            android:layout_gravity="top"
+            android:layout_marginBottom="6dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/cardlayout"
+            android:elevation="8dp">
+
+            <EditText
+                android:drawableLeft="@drawable/ingeniero"
+                android:id="@+id/etUsuarioLogin"
+                android:layout_width="290dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/oval"
+                android:hint="@string/correo"
+                android:textAlignment="center"
+                android:layout_margin="15dp"
+                android:inputType="textEmailAddress"/>
+
+
+            <EditText
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/llave"
+                android:id="@+id/etPassLogin"
+                android:layout_width="290dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/oval"
+                android:hint="@string/contraseña"
+                android:textAlignment="center"
+                android:layout_margin="5dp"/>
+
+
+            <RadioButton
+
+                android:id="@+id/rbRecordar"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:hint="@string/mantenerSesion"
+                android:layout_marginTop="15dp"/>
+
+            <CheckBox
+                android:drawableRight="@drawable/ojo"
+                android:id="@+id/cbMostrar"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="25dp"
+                android:hint="@string/mostrarContraseña"
+                android:layout_marginTop="5dp"/>
+
+
+            <Button
+
+                android:id="@+id/btnEntrar"
+                android:layout_marginTop="14dp"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:text="@string/entrar"
+                android:textColor="#ffffff"
+                android:theme="@style/RaisedButtonLight"
+                android:layout_gravity="center_horizontal"
+                android:elevation="2dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:text="@string/no_usuario"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btRegistrate"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:text="@string/Registrate"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal|bottom"
+            android:theme="@style/RaisedButtonDark"
+            android:elevation="2dp" />
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

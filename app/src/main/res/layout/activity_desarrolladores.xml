@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eii.encuentroii.desarrolladores"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:src="@drawable/navheader"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="230dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/programacion"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimarioOscuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Desarrollador"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto"/>
+
+
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimarioOscuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ContactoDesarrollador"/>
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/masDesarrollador"/>
+
+            <ImageButton
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/linkedin"
+                android:id="@+id/ibLinkedin"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="11sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkedin"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/diseño"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimarioOscuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Diseñadora"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contacto"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:textSize="18sp"
+                android:textColor="@color/textPrimarioOscuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ContactoDiseñadora"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/masDiseñadora"/>
+
+            <ImageButton
+                android:layout_gravity="center_horizontal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/carbonmade"
+                android:id="@+id/ibCarbonmade"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:textSize="11sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carbonmade"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="230dp"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark"/>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

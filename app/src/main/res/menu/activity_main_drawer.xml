@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anterior"
+            android:icon="@drawable/home"
+            android:title="@string/asisevivio" />
+
+    </group>
+
+
+    <item android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/nav_conferencias"
+                android:icon="@drawable/conferencia"
+                android:title="@string/conferencias" />
+            <item
+                android:id="@+id/nav_talleres"
+                android:icon="@drawable/taller"
+                android:title="@string/talleres" />
+        </menu>
+    </item>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_contacto"
+                android:icon="@drawable/contacto"
+                android:title="@string/contacto" />
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/perfil"
+                android:title="@string/perfil" />
+
+        </menu>
+    </item>
+
+    <item android:title="Opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/inicia"
+                android:title="@string/Inicia_Sesion" />
+            <item
+                android:id="@+id/nav_registrate"
+                android:icon="@drawable/registro"
+                android:title="@string/Registrate" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/salida"
+                android:title="@string/Salir" />
+
+        </menu>
+    </item>
+
+</menu>

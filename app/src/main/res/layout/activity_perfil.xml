@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.eii.encuentroii.perfil">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbarHeight"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+
+            <ImageView
+                android:id="@+id/ivHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fondo_perfil"
+                app:layout_collapseMode="parallax" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ciPerfil"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:elevation="6dp"
+                android:src="@drawable/imagenperfil"
+                app:layout_collapseMode="parallax" />
+
+            <Button
+                android:id="@+id/btRegresar"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/oval_color"
+                android:text="@string/generarCredencial"
+                android:textSize="10sp"
+                app:layout_collapseMode="parallax" />
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/cardlayout"
+                android:elevation="10dp"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/tvNombreUsuario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/invitadoDato"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCorreo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/invitadoDato"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/datosUsuario"
+                    android:textColor="@color/textSecundario"
+                    android:textSize="19sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/etiquetaEdad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Edad"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvEdad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaEdad"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/etiquetaGenero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaEdad"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Genero"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvGenero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaEdad"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaGenero"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/etiquetaEstado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaGenero"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Estado"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvEstado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaGenero"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaEstado"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/etiquetaMunicipio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaEstado"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Municipio"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvMunicipio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaEstado"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaMunicipio"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="17sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/etiquetaPostal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaMunicipio"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Postal"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvCodigo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaMunicipio"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaPostal"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/etiquetaEscuela"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaPostal"
+                        android:layout_marginBottom="6dp"
+                        android:text="@string/Escuela"
+                        android:textColor="@color/textSecundario"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/tvEscuela"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/etiquetaPostal"
+                        android:layout_marginBottom="6dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/etiquetaEscuela"
+                        android:text="@string/invitadoDato"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryDark" />
+
+                <TextView
+                    android:layout_marginTop="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvEscuela"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_toEndOf="@+id/etiquetaPostal"
+                    android:text="@string/miCodigo"
+                    android:textColor="@color/textSecundario"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/ivCodigoQr"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

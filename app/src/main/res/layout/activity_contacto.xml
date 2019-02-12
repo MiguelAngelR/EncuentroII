@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eii.encuentroii.contacto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <include layout="@layout/actionbar_toolbar2">
+        </include>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:src="@drawable/navheader"
+            android:id="@+id/imInicio"
+            android:elevation="5dp"
+            android:scaleType="centerCrop"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:elevation="4dp"
+            android:orientation="vertical"
+            android:background="@drawable/cardlayout">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/visitanos"
+                android:textSize="25sp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="130dp"
+                android:src="@drawable/logo2"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/ivLogo2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:text="@string/pagina"
+                android:gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom|center_horizontal">
+                
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imbFacebook"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/facebook"
+                    android:background="#ffffff"/>
+
+
+                <ImageButton
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:id="@+id/imbInstagram"
+                    android:layout_margin="10dp"
+                    android:background="#ffffff"
+                    android:src="@drawable/instragramm"/>
+                
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

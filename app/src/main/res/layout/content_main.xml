@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.eii.encuentroii.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/mapa"
+        app:layout_anchor="@id/imInicio"
+        app:layout_anchorGravity="bottom|end"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:src="@drawable/navheader"
+            android:id="@+id/imInicio"
+            android:elevation="5dp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="24dp">
+
+
+            <ImageButton
+                android:id="@+id/btTalleres"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bt_talleres"
+                android:layout_margin="15dp"
+                android:background="@drawable/boton_redondo"
+                android:elevation="5dp" />
+
+
+            <ImageButton
+                android:id="@+id/btConferencias"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/bt_conferencias"
+                android:layout_margin="15dp"
+                android:background="@drawable/boton_redondo"
+                android:elevation="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_gravity="center"
+                android:id="@+id/btContacto"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/boton_redondo"
+                android:src="@drawable/bt_contacto"
+                android:elevation="5dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvGenero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvMunicipio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvEscuela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tvCodigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invitado"
+        android:visibility="invisible"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,286 @@
+<resources>
+    <string name="app_name">Encuentro II</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="contacto">Contacto</string>
+    <string name="talleres">Talleres</string>
+    <string name="conferencias">Conferencias</string>
+    <string name="inicio">Inicio</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="action_settings">DUMMY\nCONTENT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="invitado">Entra como invitado</string>
+    <string name="no_usuario">¿No tienes cuenta?</string>
+    <string name="conf1">Conferencia1</string>
+    <string name="textConf1">ipsum dolor sit amet, placerat pretium, sapien non interdum justo nisl ipsum velit. Consequat urna vel mauris eros libero, malesuada est, varius ut, est nec nec volutpat lacus magna, feugiat vestibulum aliquam vitae pharetra. Est ac orci. Quam platea at, sed egestas venenatis magna</string>
+    <string name="tvTituloTaller1">Taller 1</string>
+    <string name="tvTituloTaller2">Taller 2</string>
+    <string name="tvTituloTaller3">Taller 3</string>
+    <string name="tvTituloTaller4">Taller 4</string>
+    <string name="tvTituloTaller5">Taller 5</string>
+    <string name="tvTituloTaller6">Taller 6</string>
+    <string name="tvDescripcionTaller">Descripcion Taller 1</string>
+    <string name="tvDescripcionTaller2">Descripcion taller 2</string>
+    <string name="tvDescripcionTaller3">Descripcion Taller 3</string>
+    <string name="tvDescripcionTaller4">Descripcion taller 4</string>
+    <string name="tvDescripcionTaller5">Descripcion Taller 5</string>
+    <string name="tvDescripcionTaller6">Descripcion taller 6</string>
+    <string name="visitanos">Visitanos en:</string>
+    <string name="primerDia">Primer Día</string>
+    <string name="segundoDia">Segundo Día</string>
+
+    <string name="pagina">--- www.encuentroii.com --</string>
+    <string name="tConfSegundo">Conferencias Segundo Día</string>
+    <string name="tConfPrimer">Conferencias Primer Día</string>
+    <string name="tTallerPrimer">Talleres Primer Día</string>
+    <string name="tTallerSegundo">Talleres Segundo Día</string>
+    <string name="perfil">Perfil</string>
+    <string name="regresa">Regresar</string>
+    <string name="datosUsuario">Datos de Usuario</string>
+    <string name="Edad">Edad:</string>
+    <string name="Genero">Genero :</string>
+    <string name="Estado">Estado :</string>
+    <string name="Municipio">Municipio :</string>
+    <string name="Postal">Codigo Postal :</string>
+    <string name="Escuela">Escuela :</string>
+    <string name="Mis_Conferencias">Mis actividades</string>
+    <string name="Postall">56800</string>
+    <string name="invitadoDato">Invitado</string>
+    <string name="Registrate">¡ Registrate !</string>
+    <string name="o_bien">O bien...</string>
+    <string name="Registro">Registro</string>
+    <string name="contraseñaConfirm">Confirmar Contraseña</string>
+    <string name="Codigo">Codigo Postal</string>
+    <string name="EscuelaRegis">Escuela</string>
+    <string name="correoRegis">¿Cuál es tu correo?</string>
+    <string name="municipioRegis">Municipio</string>
+    <string name="estadoRegis">Estado</string>
+    <string name="generoRegis">Genero</string>
+    <string name="edadRegis">Edad</string>
+    <string name="apellidosRegis">Apellidos</string>
+    <string name="SeleccionEstado">Selecciona tu Estado</string>
+    <string name="selecEdad">¿Cuántos años tienes?</string>
+    <string name="selecGenero">Selecciona tu genero</string>
+    <string name="selecEscuela">¿De que escuela nos visitas?</string>
+    <string name="nombreSelec">¿Cómo te llamas?</string>
+    <string name="correoConfir">Confirma tu correo</string>
+    <string name="taller">Taller</string>
+    <string name="tvTituloTaller7">Taller 7</string>
+    <string name="recordarContraseña">Recordar mi contraseña</string>
+    <string name="Salir">Salir</string>
+
+    <!--CONFERENCIAS TITULOS-->
+
+    <string name="TitleConferencia1_dia1">No se puede cambiar al mundo detrás de un escritorio</string>
+    <string name="TitleConferencia2_dia1">Gestión de Riesgos y Protección Civil</string>
+    <string name="TitleConferencia3_dia1">El capital humano, la llave de las tecnologías blandas y la productividad</string>
+    <string name="TitleConferencia4_dia1">La Ing. Industrial en el sistema de Gestión Integral de Seguridad</string>
+    <string name="TitleConferencia5_dia1">¡Conferencia Sorpresa!</string>
+    <string name="TitleConferencia6_dia1">Herramienta para el cálculo de consumo de combustible y emisiones de vehículos pesados</string>
+    <string name="TitleConferencia7_dia1">Innovación tecnológica en el área automotriz "Inferno exotic car"</string>
+    <string name="TitleConferencia8_dia1">La gestión comercial de los proyectos tecnológicos en la industrial 4.0</string>
+    <string name="TitleConferencia9_dia1">Competencia estratégica para las empresas</string>
+    <string name="TitleConferencia10_dia1">¡Conferencia Sorpresa!</string>
+    // Wallmart
+    <string name="TitleConferencia1_dia2">Ingenieros 4.0</string>
+    <string name="TitleConferencia2_dia2">NOM-035-STPS-2016 “Factores de riesgo psicosocial en el trabajo”</string>
+    <string name="TitleConferencia3_dia2">Evaluación de Competencias Laborales en la Industria</string>
+    <string name="TitleConferencia4_dia2">¡Conferencia Sorpresa!</string>
+    <string name="TitleConferencia5_dia2">Liderazgo -"El ingeniero como empresario"</string>
+    <string name="TitleConferencia6_dia2">Emprendimiento: más que un negocio</string>
+    <string name="TitleConferencia7_dia2">Utilización de Gemelos Digitales para la Simulación y Optimización de Celdas y Líneas de Manufactura bajo el concepto de PLM (Product Lifecycle Management)</string>
+    <string name="TitleConferencia8_dia2">Mi primera entrevista</string>
+    <string name="TitleConferencia9_dia2">Creación de planes logísticos mediante el uso de IOT en la industria del cemento: Trax Innovation una historia de emprendimiento</string>
+    <string name="TitleConferencia10_dia2">Campo laboral: Las pequeñas cosas y el Pensamiento Lateral</string>
+
+    <!--CONFERENCIAS IMPARTIDOR-->
+
+    <string name="ImparteConferencia1_dia1">Lic. Yamir Guillén</string>
+    <string name="ImparteConferencia2_dia1">Ing. Alejandro Enrique Romero Castañeda (Analistas de Riesgos y Emergencias de Mexico S.A. de C.V)</string>
+    <string name="ImparteConferencia3_dia1">Ing. Nayeli Sarai Luna Rojas</string>
+    <string name="ImparteConferencia4_dia1">CPS. Ing. Victoriano Anguis Terrazas</string>
+    <string name="ImparteConferencia5_dia1">Rafael Omar Mata Villeda</string>
+    <string name="ImparteConferencia6_dia1">Dr. Nicolás Domínguez Vergara</string>
+    <string name="ImparteConferencia7_dia1">Dr. Said Robles Casolco</string>
+    <string name="ImparteConferencia8_dia1">Lic. Rocio Espinal Díaz</string>
+    <string name="ImparteConferencia9_dia1">Ing. Ulises I. Flores Montiel</string>
+    <string name="ImparteConferencia10_dia1">Ing. Juan Antonio Andrade Gress</string>
+    //WALMART México Ing. Juan Antonio
+    <string name="ImparteConferencia1_dia2">M. en I. Juan Manuel Ávalos Ochoa</string>
+    <string name="ImparteConferencia2_dia2">Ing. Miguel Ángel Miravete Sandoval(Grupo PRICON)</string>
+    <string name="ImparteConferencia3_dia2">M.S.H.O. Jesús Jacinto Barragán</string>
+    <string name="ImparteConferencia4_dia2">M. en I. Julian Gonzalez Velasco</string>//Univalle
+    <string name="ImparteConferencia5_dia2">Ing. Juan Ángel Ortega Salcedo</string>
+    <string name="ImparteConferencia6_dia2">Dr. Samuel Lara Escamilla</string>
+    <string name="ImparteConferencia7_dia2">Ing. Germán Esparza Sedas</string>
+    <string name="ImparteConferencia8_dia2">Ing. Fausto Salvador Bobadilla Vaca</string>
+    <string name="ImparteConferencia9_dia2">Equipo TRAX Innovation</string>
+    <string name="ImparteConferencia10_dia2">Ing. Carlo Alfonso Jacobo Garibay</string>
+
+
+    <!-- HORA CONFERENCIAS -->
+
+    <string name="HoraConferencia1_dia1">12:00 pm - 13:00 pm</string>
+    <string name="HoraConferencia2_dia1">14:00 pm - 15:00 pm</string>
+    <string name="HoraConferencia3_dia1">15:00 pm - 16:00 pm</string>
+    <string name="HoraConferencia4_dia1">16:00 pm - 17:00 pm</string>
+    <string name="HoraConferencia5_dia1">17:00 pm - 18:00 pm</string>
+    <string name="HoraConferencia6_dia1">12:00 pm - 13:00 pm</string>
+    <string name="HoraConferencia7_dia1">14:00 pm - 15:00 pm</string>
+    <string name="HoraConferencia8_dia1">15:00 pm - 16:00 pm</string>
+    <string name="HoraConferencia9_dia1">16:00 pm - 17:00 pm</string>
+    <string name="HoraConferencia10_dia1">17:00 pm - 18:00 pm</string>
+    <string name="HoraConferencia1_dia2">10:00 am - 11:00 am</string>
+    <string name="HoraConferencia2_dia2">11:00 am - 12:00 pm</string>
+    <string name="HoraConferencia3_dia2">12:00 pm - 13:00 pm</string>
+    <string name="HoraConferencia4_dia2">14:00 pm - 15:00 pm</string>
+    <string name="HoraConferencia5_dia2">15:00 pm - 16:00 pm</string>
+    <string name="HoraConferencia6_dia2">10:00 am - 11:00 am</string>
+    <string name="HoraConferencia7_dia2">11:00 am - 12:00 pm</string>
+    <string name="HoraConferencia8_dia2">12:00 pm - 13:00 pm</string>
+    <string name="HoraConferencia9_dia2">14:00 pm - 15:00 pm</string>
+    <string name="HoraConferencia10_dia2">15:00 pm - 16:00 pm</string>
+
+    <!-- LUGAR CONFERENCIAS -->
+    <string name="AJBS">Auditorio Javier Barros Sierra</string>
+    <string name="ARLM">Auditorio Raúl J. Marsal</string>
+
+    <!-- DIA CONFERENCIAS -->
+    <string name="PrimerDia">17 de mayo </string>
+    <string name="SegundoDia">18 de mayo</string>
+
+    <!--- TALLERES............................................ -->
+
+    <!-- TALLER TITULOS-->
+
+    <string name="TitleTaller1_dia1">Construyendo patentes, modelos de utilidad y diseños industriales en la industria 4.0</string>
+    //--
+    <string name="TitleTaller2_dia1">Mantenimiento y productividad en la empresa</string>
+    //---
+    <string name="TitleTaller3_dia1">El gran impacto de los idiomas en el ingeniero, oportunidades y retos actuales</string>
+    //---
+    <string name="TitleTaller4_dia1">Aprende a identificar tus competencias laborales</string>
+    //---
+    <string name="TitleTaller5_dia1">Metodología design thinking</string>//----
+    <string name="TitleTaller6_dia1">Sistema Kanban</string>
+    //----
+    <string name="TitleTaller7_dia1">Plan de negocios: ¿Cómo elegir tu negocio?</string>
+    //--
+    <string name="TitleTaller1_dia2">Competencias industriales</string>
+    //--
+    <string name="TitleTaller2_dia2">Comercio internacional</string>//---
+    <string name="TitleTaller3_dia2">Ergonomía como herramienta de la Higiene y Seguridad</string>
+    <string name="TitleTaller4_dia2">Guía para redacción de artículos científicos tecnológicos</string>
+    //--
+    <string name="TitleTaller5_dia2">Mejora Continua</string>
+    //---
+    <string name="TitleTaller6_dia2">Calidad</string>//----
+    <string name="TitleTaller7_dia2">R PROGRAM GGPLOT</string>
+    //---
+    <string name="TitleTaller8_dia2">Oficina de proyectos de Logística Internacional </string>
+    //---
+
+    <!--TALLER IMPARTIDOR-->
+
+    <string name="ImparteTaller1_dia1">Lic. Rocio Espinal Díaz, GRUPO PRIDI</string>
+    <string name="ImparteTaller2_dia1">M.S.H.O Javier Ferrer Ramírez</string>
+    <string name="ImparteTaller3_dia1">Lic. José Luis Acosta Anguino, CMEILE</string>
+    <string name="ImparteTaller4_dia1">Lic. María Cristina Isabel Castillo Domínguez</string>
+    <string name="ImparteTaller5_dia1">Lic. Jesús Vázques Arreola, GRUPO PRIDI</string>
+    <string name="ImparteTaller6_dia1">Ing. Jesús Loyo Quijada  Mtra. Mariana Hernández González  Dra. Lisaura Walkiria Rodríguez Alvarado</string>
+    <string name="ImparteTaller7_dia1">M. en C. Dionisio Salomón Fernández Tapia</string>
+    <string name="ImparteTaller1_dia2">M. en C. Guadalupe E. Trejo Parada y M. en C. Osiris Amaranta Vergara Martínez</string>
+    <string name="ImparteTaller2_dia2">Mtra. María del Carmen Navarrete Sevilla - SEFI</string>
+    <string name="ImparteTaller3_dia2">M.S.H.O. Jesús Jacinto Barragán</string>
+    <string name="ImparteTaller4_dia2">Dr. Samuel Lara Escamilla</string>
+    <string name="ImparteTaller5_dia2">Ing. Jesús Loyo Quijada  Mtra. Mariana Hernández González  Dra. Lisaura Walkiria Rodríguez Alvarado</string>
+    <string name="ImparteTaller6_dia2">Juan Carlos Axotla García</string>
+    <string name="ImparteTaller7_dia2">Dr. Wulfrano Gomez Gallardo</string>
+    <string name="ImparteTaller8_dia2">M. A. Daniel Aguirre</string>
+
+
+    <!-- HORA TALLER -->
+
+    <string name="HoraTaller1_dia1">11:00:00 - 15:00:00</string>
+    <string name="HoraTaller2_dia1">15:00:00 - 17:00:00</string>
+    <string name="HoraTaller3_dia1">17:00:00 - 18:00:00</string>
+    <string name="HoraTaller4_dia1">11:00:00 - 13:00:00</string>
+    <string name="HoraTaller5_dia1">13:00:00 - 17:00:00</string>
+    <string name="HoraTaller6_dia1">11:00:00 - 15:30:00</string>
+    <string name="HoraTaller7_dia1">15:00:00 - 18:00:00</string>
+    <string name="HoraTaller1_dia2">09:00:00 - 13:00:00</string>
+    <string name="HoraTaller2_dia2">13:00:00 - 16:00:00</string>
+    <string name="HoraTaller3_dia2">16:00:00 - 18:00:00</string>
+    <string name="HoraTaller4_dia2">12:00:00 - 16:00:00</string>
+    <string name="HoraTaller5_dia2">09:00:00 - 13:00:00</string>
+    <string name="HoraTaller6_dia2">13:00:00 - 15:00:00</string>
+    <string name="HoraTaller7_dia2">15:00:00 - 18:00:00</string>
+    <string name="HoraTaller8_dia2">09:00:00 - 12:00:00</string>
+
+    <!-- CAPACIDAD TALLER -->
+
+    <string name="CapacidadTaller1_dia1"> 30 personas</string>
+    <string name="CapacidadTaller2_dia1"> 40 personas</string>
+    <string name="CapacidadTaller3_dia1">    personas</string>
+    <string name="CapacidadTaller4_dia1"> 30 personas</string>
+    <string name="CapacidadTaller5_dia1"> 30 personas</string>
+    <string name="CapacidadTaller6_dia1"> 28 personas</string>
+    <string name="CapacidadTaller7_dia1"> 20 personas</string>
+    <string name="CapacidadTaller1_dia2"> 30 personas</string>
+    <string name="CapacidadTaller2_dia2"> 40 personas</string>
+    <string name="CapacidadTaller3_dia2"> 35 personas</string>
+    <string name="CapacidadTaller4_dia2"> 40 personas</string>
+    <string name="CapacidadTaller5_dia2"> 18 personas</string>
+    <string name="CapacidadTaller6_dia2"> 25 personas</string>
+    <string name="CapacidadTaller7_dia2">    personas</string>
+    <string name="CapacidadTaller8_dia2">    personas</string>
+
+    <!-- LUGAR TALLER -->
+    <string name="CIA1">Sótano CIA sección 1</string>
+    <string name="CIA2">Sótano CIA sección 2</string>
+    <string name="UM">Salón de Usos Múltiples</string>
+
+    <!-- otros -->
+
+    <string name="imparte">Conferencista:</string>
+    <string name="Horario">Horario:</string>
+    <string name="Lugar">Lugar:</string>
+    <string name="tallerista">Tallerista:</string>
+    <string name="cupo">Cupo:</string>
+    <string name="copoTaller">30 personas</string>
+    <string name="Noticias">¡ Noticias  !</string>
+    <string name="lorem"></string>
+    <string name="saludo">:D</string>
+    <string name="loginInvitado">Invitado</string>
+    <string name="mostrarContraseña">Mostrar Contraseña</string>
+    <string name="mantenerSesion">Mantener mi sesión activa</string>
+    <string name="ocultarContraseña">Ocultar Contraseña</string>
+    <string name="generarCredencial">Codigo QR</string>
+    <string name="miCodigo">Mi Código QR</string>
+    <string name="asisevivio">¡Así se vivió el 1.EII!</string>
+    <string name="desarrollado">Desarrollado por:</string>
+    <string name="Inicia_Sesion">Inicia Sesión</string>
+    <string name="dinamunus">Desarrollado por...</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="programacion">Desarrollado por:</string>
+    <string name="Desarrollador">Miguel Angel Rios</string>
+    <string name="ContactoDesarrollador">miguel.rios.alonso@outlook.com</string>
+    <string name="diseño">Diseño por:</string>
+    <string name="Diseñadora">Sandra Graciela De La O Martinez.</string>
+    <string name="ContactoDiseñadora">paperm29@hotmial.com</string>
+    <string name="masDiseñadora">Más diseños e información en:</string>
+    <string name="carbonmade">Carbonmade</string>
+    <string name="masDesarrollador">Más proyectos e información en:</string>
+    <string name="linkedin">linkedin</string>
+    <string name="datosPersonales">Datos personales:</string>
+    <string name="datosContacto">Datos de contacto y escolares:</string>
+
+
+</resources>

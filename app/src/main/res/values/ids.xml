@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tvTituloTaller" type="id">Taller 1</item>
+    <item name="tvTituloTaller2" type="id">Taller 2</item>
+    <item name="tvDescripcionTaller" type="id">Descripcion taller 2</item>
+</resources>

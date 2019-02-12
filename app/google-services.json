@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1029161558306",
+    "firebase_url": "https://encuentroii-382b2.firebaseio.com",
+    "project_id": "encuentroii-382b2",
+    "storage_bucket": "encuentroii-382b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029161558306:android:916bbc0ba6750e38",
+        "android_client_info": {
+          "package_name": "com.eii.encuentroii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029161558306-v1ehdbcrb0vonm6nrck93dn4fbqm96hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwitXjF0sj1jXTvqKVp_8qCp1OOkpk6Es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
